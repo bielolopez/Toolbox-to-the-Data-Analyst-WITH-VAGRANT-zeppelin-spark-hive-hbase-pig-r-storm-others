@@ -10,18 +10,17 @@ the change in the common.sh file located also in the scripts folder.
 
  After having made the vagrant up and connected to the virtual machine by terminal with vagrant ssh, I highly recommend doing it as an administrator, if necessary proceed to install R.
 
-The procedure for installing R is as follows:\n
+The procedure for installing R is as follows:
 
-sudo apt-get update\n
+sudo apt-get update
 
-sudo apt-get install libxml2-dev\n
+sudo apt-get install libxml2-dev
 
-sudo apt-get install libcurl4-openssl-dev libssl-dev\n
+sudo apt-get install libcurl4-openssl-dev libssl-dev
 
-sudo apt-get install r-base\n
-\n
-\n
-\n
+sudo apt-get install r-base
+
+
 Validate the installation of R with:
 
 Introduce R in the terminal.
@@ -54,11 +53,9 @@ and others packages.
 Before you run Zeppelin with cd /opt/zeppelin  and ./bin/zeppelin-deamon.sh start, change the permission of all folder in zeppelin folder.
 
 
-
-
 Install Apache Mahout if you need.
 
-Second, How to install directly from tar file.
+To install from tar file.
 Download .tar.gz file.
 sudo tar -zxvf mahout-distribution-#.#.tar.gz.
 sudo mv mahout-distribution-#.# /usr/lib/mahout
