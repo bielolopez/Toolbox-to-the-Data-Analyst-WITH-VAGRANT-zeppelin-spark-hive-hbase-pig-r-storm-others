@@ -10,18 +10,18 @@ the change in the common.sh file located also in the scripts folder.
 
  After having made the vagrant up and connected to the virtual machine by terminal with vagrant ssh, I highly recommend doing it as an administrator, if necessary proceed to install R.
 
-The procedure for installing R is as follows:
+The procedure for installing R is as follows:\n
 
-sudo apt-get update
+sudo apt-get update\n
 
-sudo apt-get install libxml2-dev
+sudo apt-get install libxml2-dev\n
 
-sudo apt-get install libcurl4-openssl-dev libssl-dev
+sudo apt-get install libcurl4-openssl-dev libssl-dev\n
 
-sudo apt-get install r-base
-
-
-
+sudo apt-get install r-base\n
+\n
+\n
+\n
 Validate the installation of R with:
 
 Introduce R in the terminal.
