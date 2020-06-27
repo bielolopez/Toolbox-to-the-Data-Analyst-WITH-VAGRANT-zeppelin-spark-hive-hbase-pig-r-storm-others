@@ -32,6 +32,7 @@ install.packages("devtools")
 install.packages("ggplot2")
 
 install.packages("glmnet")
+for install glmnet use http://ftp.ntou.edu.tw/ubuntu/pool/universe/r/r-cran-glmnet/ and think that /home/ubuntu/resouces is share with PC and virtual machine.
 
 install.packages("caret")
 
