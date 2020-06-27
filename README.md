@@ -59,7 +59,7 @@ Before you run Zeppelin with cd /opt/zeppelin  and ./bin/zeppelin-deamon.sh star
 
 Install Apache MAHOUT if you need.
 
-Second, How to install directly from tar file.
+To install directly from tar file (https://downloads.apache.org/mahout/0.12.0/).
 Download .tar.gz file.
 sudo tar -zxvf mahout-distribution-#.#.tar.gz.
 sudo mv mahout-distribution-#.# /usr/lib/mahout
