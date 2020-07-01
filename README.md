@@ -102,3 +102,7 @@ Verify
 mvn --version
 
 Thanks to Alex Holmes for the great work at github path>>> https://github.com/alexholmes/vagrant-hadoop-spark-hive
+
+
+
+** in windows 10 home, pro or enterprise un check the VirtualBox NDIS6 Bridged Networking Driver.
