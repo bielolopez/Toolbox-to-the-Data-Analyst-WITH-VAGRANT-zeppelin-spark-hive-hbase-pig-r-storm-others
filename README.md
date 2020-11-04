@@ -122,8 +122,10 @@ Find the file named vagrantfile that was extracted from the zip file provided an
 
     config.vm.provider "virtualbox" do | v, override |
 override.vm.box = "ubuntu / xenial64"
+#
    config.disksize.size = '50GB' 
-   v.gui = false
+# 
+ v.gui = false
    v.name = "bielo"
    v.customize ['modifyvm',: id, '--memory', '8192']
 
