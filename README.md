@@ -108,3 +108,25 @@ Thanks to Alex Holmes for the great work at github path>>> https://github.com/al
 
 
 ** in windows 10 home, pro or enterprise un check the VirtualBox NDIS6 Bridged Networking Driver.
+
+
+
+ANNEXED
+
+If there is a need to expand the HDD disk of the virtual machine, incorporate the vagrant-disksize plug-in; using the following command >>
+
+vagrant plugin install vagrant-disksize
+
+
+Find the file named vagrantfile that was extracted from the zip file provided and enter these directives >>
+
+    config.vm.provider "virtualbox" do | v, override |
+override.vm.box = "ubuntu / xenial64"
+# config.disksize.size = '50GB' #
+v.gui = false
+v.name = "bielo"
+            v.customize ['modifyvm',: id, '--memory', '8192']
+
+What is between numerals is what needs to be added.
+
+Then execute the vagrant up command in the console in the path where the zip file was extracted. Wait about 2 or 3 minutes for the resize to run
