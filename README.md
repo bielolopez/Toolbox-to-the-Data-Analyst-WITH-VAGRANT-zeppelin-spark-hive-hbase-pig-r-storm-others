@@ -129,6 +129,6 @@ override.vm.box = "ubuntu / xenial64"
    v.name = "bielo"
    v.customize ['modifyvm',: id, '--memory', '8192']
 
-What is between numerals is what needs to be added.
+What is between lines is what you needs to be added.
 
 Then execute the vagrant up command in the console in the path where the zip file was extracted. Wait about 2 or 3 minutes for the resize to run
