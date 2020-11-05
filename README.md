@@ -1,5 +1,5 @@
-# vagrant-spark-hive-hbase-pig-r-pyspark-zeppelin-and-others
-##Educational virtual machine to practice scala, spark.r, pyspark, pig, hbase, flume, and others big data technology
+# vagrant-spark-hive-hbase-pig-r-pyspark-zeppelin-and-others / BIELO LÓPEZ LAUBER
+##Educational virtual machine to practice scala, spark.r, pyspark, pig, hbase, flume, and others big data technology - OPCIONAL ADD JUPYTER-LAB, STORM AND OTHERS.
 
 
 In the repository you will find a file version.sh in the folder called scripts where the versions of each technology are found to find the most convenient combination for your work. 
