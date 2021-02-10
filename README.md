@@ -62,9 +62,9 @@ Before you run Zeppelin with cd /opt/zeppelin  and ./bin/zeppelin-deamon.sh star
 Install Apache MAHOUT if you need.
 
 To install directly from tar file (https://downloads.apache.org/mahout/0.12.0/).
-Download .tar.gz file.
+Download .tar.gz file ( 222 mb ).
 sudo tar -zxvf mahout-distribution-#.#.tar.gz.
-sudo mv mahout-distribution-#.# /usr/lib/mahout
+sudo mv mahout-distribution-#.# /usr/local/mahout
 sudo nano ~/.bashrc
 introduce in .bashrc =>   export MAHOUT_HOME=/usr/local/mahout
 Run this command for update bashrc  =>       source ~/.bashrc
@@ -118,7 +118,7 @@ If there is a need to expand the HDD disk of the virtual machine, incorporate th
 vagrant plugin install vagrant-disksize
 
 
-Find the file named vagrantfile that was extracted from the zip file provided and enter these directives >>
+Find the file named vagrantfile that was extracted from the zip file provided and enter these directives >>  vagrant plugin install vagrant-disksize
 
     config.vm.provider "virtualbox" do | v, override |
 override.vm.box = "ubuntu / xenial64"
