@@ -1,5 +1,5 @@
-# vagrant-spark-hive-hbase-pig-r-pyspark-zeppelin-and-others / BIELO LÓPEZ LAUBER
-##Educational virtual machine to practice scala, spark.r, pyspark, pig, hbase, flume, and others big data technology - OPCIONAL ADD JUPYTER-LAB, STORM AND OTHERS.
+#  vagrant spark hive hbase pig r pyspark zeppelin and others / Author  BIELO LÓPEZ LAUBER in base of Alex Holmes github repositories.
+## Virtual machine to practice scala, spark.r, pyspark, pig, hbase, flume, and others big data technology - OPCIONAL ADD JUPYTER-LAB, STORM AND OTHERS.
 
 
 In the repository you will find a file version.sh in the folder called scripts where the versions of each technology are found to find the most convenient combination for your work. 
@@ -65,9 +65,7 @@ To install directly from tar file (https://downloads.apache.org/mahout/0.12.0/).
 Download .tar.gz file ( 222 mb ).
 sudo tar -zxvf mahout-distribution-#.#.tar.gz.
 sudo mv mahout-distribution-#.# /usr/local/mahout
-sudo nano ~/.bashrc
-introduce in .bashrc =>   export MAHOUT_HOME=/usr/local/mahout
-Run this command for update bashrc  =>       source ~/.bashrc
+Go to>> cd /usr/local/mahout ,   and run ./bin/mahout --help
 Is installed successfully.
 
 
