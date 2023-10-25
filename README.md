@@ -34,7 +34,7 @@ install.packages("ggplot2")
 install.packages("foreach")
 
 install.packages("glmnet")
-for install glmnet use [http://ftp.ntou.edu.tw/ubuntu/pool/universe/r/r-cran-glmnet/](https://cran.r-project.org/src/contrib/Archive/glmnet/) and think that /vagrant/resouces is share with PC and virtual machine.
+for install glmnet use [https://cran.r-project.org/src/contrib/Archive/glmnet/] and think that /vagrant/resouces is share with PC and virtual machine.
 
 install.packages("caret")
 
